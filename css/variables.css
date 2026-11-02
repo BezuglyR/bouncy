@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../fonts/source-sans-3-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../fonts/open-sans-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('../fonts/montserrat-latin.woff2') format('woff2');
+}
+
+:root {
+  --primary: #19bd9a;
+  --primary-hover: #149c7f;
+  --dark: #202020;
+  --light-gray: #f3f3f3;
+  --line-color: #68c6a7;
+  --icon-gray: #81868e;
+
+  --text-dark: #4a4a4a;
+  --text-muted: #888888;
+
+  --font-main: 'Open Sans', Arial, sans-serif;
+  --font-heading: 'Source Sans 3', Arial, sans-serif;
+  --font-logo: 'Montserrat', Arial, sans-serif;
+}

@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text-muted);
+  background-color: #ffffff;
+  line-height: 1.6;
+  position: relative;
+  cursor: url('../images/cursor.svg') 10 10, auto;
+}
+
+a,
+button,
+label,
+input[type="submit"],
+input[type="button"],
+select {
+  cursor: url('../images/cursor-pointer.svg') 12 12, pointer !important;
+}
+
+::-moz-selection {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+::selection {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) var(--dark);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 50px;
+  border: 2px solid var(--dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-hover);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  font: inherit;
+}

@@ -1,0 +1,224 @@
+@media screen and (max-width: 1200px) {
+  .services-box {
+    padding: 0;
+  }
+
+  .services-left {
+    gap: 30px;
+  }
+
+  .skills {
+    gap: 24px;
+  }
+
+  .circle {
+    width: 112px;
+    height: 112px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section {
+    padding: 65px 0;
+  }
+
+  .about {
+    padding-bottom: 0;
+  }
+
+  .section-header {
+    margin-bottom: 45px;
+  }
+
+  .featured-grid {
+    height: 260px;
+  }
+
+  .banner-top .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .services-box {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .banner-bottom {
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    padding-top: 22px;
+  }
+
+  .burger-btn {
+    display: block;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: rgba(20, 20, 20, 0.96);
+    padding: 20px;
+    border-radius: 8px;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .burger-checkbox:checked ~ nav {
+    display: flex;
+  }
+
+  .nav-item {
+    font-size: 16px;
+    padding: 6px 22px;
+  }
+
+  .hero-content h1 {
+    font-size: 26px;
+    letter-spacing: 4px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .btn-bottom {
+    bottom: 40px;
+  }
+
+  .featured-grid {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .featured-item {
+    flex: none;
+    height: 200px;
+  }
+
+  .featured-item:hover {
+    flex-grow: 0;
+  }
+
+  .banner-top .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .banner-text {
+    font-size: 16px;
+  }
+
+  .services-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services-icons {
+    flex-direction: row;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skill-value {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 21px;
+    letter-spacing: 3px;
+  }
+
+  .section-title {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+
+  .filters {
+    gap: 6px 16px;
+    margin-bottom: 40px;
+  }
+
+  .filter-btn {
+    font-size: 14px;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+  }
+
+  .portfolio-overlay {
+    padding: 0 28px;
+  }
+
+  .portfolio-links {
+    left: 28px;
+    bottom: 28px;
+  }
+
+  .banner-bottom {
+    padding: 40px 18px;
+  }
+
+  .services-icons {
+    gap: 12px;
+  }
+
+  .icon-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .skills {
+    gap: 16px;
+  }
+
+  .circle {
+    width: 92px;
+    height: 92px;
+  }
+
+  .scroll-nav {
+    right: 14px;
+    bottom: 14px;
+  }
+
+  .scroll-btn {
+    width: 34px;
+    height: 34px;
+  }
+}
